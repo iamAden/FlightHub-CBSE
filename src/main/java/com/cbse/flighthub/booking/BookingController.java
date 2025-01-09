@@ -48,21 +48,19 @@ public class BookingController {
                     }
                 }
             }
-            System.out.println(userId);
             if (userId == null) {
-                System.out.println("Null user id");
-                return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("User is not logged in.");
+                return ResponseEntity.badRequest().body("User is not logged in.");
             }
 
             // Fetch the user by userId
             User user = userService.getUserById(userId);
             if (user == null) {
-                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found.");
+                return ResponseEntity.badRequest().body("User not found.");
             }
 
             Flight flight = flightService.getFlightById(flightId);
             if (flight == null) {
-                return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Flight not found.");
+                return ResponseEntity.status(404).body("Flight not found.");
             }
 
             if (flight.getAvailableSeats() <= 0) {

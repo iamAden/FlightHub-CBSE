@@ -1,0 +1,512 @@
+arrival_time,available_seats,company,date,departure_time,destination,flight_number,price,origin,flight_status
+8:25:00,10,AirAsia,01-02-25,7:00:00,Kuala Lumpur International Airport,AK378,250,Sultan Abdul Halim Airport,ONTIME
+12:00:00,10,AirAsia,01-02-25,11:00:00,Kuala Lumpur International Airport,AK205,87,Sultan Abdul Halim Airport,ONTIME
+19:20:00,10,AirAsia,01-02-25,18:00:00,Kuala Lumpur International Airport,AK380,120,Sultan Abdul Halim Airport,ONTIME
+8:20:00,10,AirAsia,02-02-25,7:00:00,Kuala Lumpur International Airport,AK397,214,Sultan Abdul Halim Airport,ONTIME
+12:00:00,10,AirAsia,02-02-25,11:00:00,Kuala Lumpur International Airport,AK388,255,Sultan Abdul Halim Airport,ONTIME
+19:00:00,10,AirAsia,02-02-25,18:00:00,Kuala Lumpur International Airport,AK332,94,Sultan Abdul Halim Airport,ONTIME
+8:20:00,10,AirAsia,03-02-25,7:00:00,Kuala Lumpur International Airport,AK378,121,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,03-02-25,11:00:00,Kuala Lumpur International Airport,AK379,132,Sultan Abdul Halim Airport,ONTIME
+14:20:00,10,AirAsia,03-02-25,14:00:00,Kuala Lumpur International Airport,AK343,79,Sultan Abdul Halim Airport,ONTIME
+19:00:00,10,AirAsia,03-02-25,18:00:00,Kuala Lumpur International Airport,AK380,108,Sultan Abdul Halim Airport,ONTIME
+8:20:00,10,AirAsia,04-02-25,7:00:00,Kuala Lumpur International Airport,AK378,83,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,04-02-25,11:00:00,Kuala Lumpur International Airport,AK379,108,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,04-02-25,18:00:00,Kuala Lumpur International Airport,AK397,127,Sultan Abdul Halim Airport,ONTIME
+8:10:00,10,AirAsia,05-02-25,7:00:00,Kuala Lumpur International Airport,AK388,121,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,05-02-25,11:00:00,Kuala Lumpur International Airport,AK332,79,Sultan Abdul Halim Airport,ONTIME
+19:00:00,10,AirAsia,05-02-25,18:00:00,Kuala Lumpur International Airport,AK380,180,Sultan Abdul Halim Airport,ONTIME
+8:20:00,10,AirAsia,06-02-25,7:00:00,Kuala Lumpur International Airport,AK390,105,Sultan Abdul Halim Airport,ONTIME
+12:10:00,10,AirAsia,06-02-25,11:00:00,Kuala Lumpur International Airport,AK379,79,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,06-02-25,18:00:00,Kuala Lumpur International Airport,AK380,180,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,07-02-25,7:00:00,Kuala Lumpur International Airport,AK321,120,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,07-02-25,11:00:00,Kuala Lumpur International Airport,AK379,214,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,07-02-25,18:00:00,Kuala Lumpur International Airport,AK397,255,Sultan Abdul Halim Airport,ONTIME
+8:20:00,10,AirAsia,08-02-25,7:00:00,Kuala Lumpur International Airport,AK388,118,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,08-02-25,11:00:00,Kuala Lumpur International Airport,AK332,121,Sultan Abdul Halim Airport,ONTIME
+19:00:00,10,AirAsia,08-02-25,18:00:00,Kuala Lumpur International Airport,AK380,132,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,09-02-25,7:00:00,Kuala Lumpur International Airport,AK378,108,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,09-02-25,11:00:00,Kuala Lumpur International Airport,AK379,105,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,09-02-25,18:00:00,Kuala Lumpur International Airport,AK380,108,Sultan Abdul Halim Airport,ONTIME
+8:20:00,10,AirAsia,10-02-25,7:00:00,Kuala Lumpur International Airport,AK378,127,Sultan Abdul Halim Airport,ONTIME
+12:10:00,10,AirAsia,10-02-25,11:00:00,Kuala Lumpur International Airport,AK379,342,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,10-02-25,18:00:00,Kuala Lumpur International Airport,AK380,231,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,11-02-25,7:00:00,Kuala Lumpur International Airport,AK378,325,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,11-02-25,11:00:00,Kuala Lumpur International Airport,AK379,180,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,11-02-25,18:00:00,Kuala Lumpur International Airport,AK397,120,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,12-02-25,7:00:00,Kuala Lumpur International Airport,AK388,214,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,12-02-25,11:00:00,Kuala Lumpur International Airport,AK332,255,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,12-02-25,18:00:00,Kuala Lumpur International Airport,AK380,118,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,13-02-25,7:00:00,Kuala Lumpur International Airport,AK378,121,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,13-02-25,11:00:00,Kuala Lumpur International Airport,AK379,132,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,13-02-25,18:00:00,Kuala Lumpur International Airport,AK332,108,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,14-02-25,7:00:00,Kuala Lumpur International Airport,AK378,105,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,14-02-25,11:00:00,Kuala Lumpur International Airport,AK388,108,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,14-02-25,18:00:00,Kuala Lumpur International Airport,AK332,127,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,15-02-25,7:00:00,Kuala Lumpur International Airport,AK380,121,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,15-02-25,11:00:00,Kuala Lumpur International Airport,AK378,231,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,15-02-25,18:00:00,Kuala Lumpur International Airport,AK379,180,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,16-02-25,7:00:00,Kuala Lumpur International Airport,AK380,250,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,16-02-25,11:00:00,Kuala Lumpur International Airport,AK378,180,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,16-02-25,18:00:00,Kuala Lumpur International Airport,AK379,120,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,17-02-25,7:00:00,Kuala Lumpur International Airport,AK380,214,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,17-02-25,11:00:00,Kuala Lumpur International Airport,AK378,255,Sultan Abdul Halim Airport,ONTIME
+19:10:00,10,AirAsia,17-02-25,18:00:00,Kuala Lumpur International Airport,AK379,118,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,18-02-25,7:00:00,Kuala Lumpur International Airport,AK397,121,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,18-02-25,11:00:00,Kuala Lumpur International Airport,AK388,132,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,18-02-25,18:00:00,Kuala Lumpur International Airport,AK378,108,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,19-02-25,7:00:00,Kuala Lumpur International Airport,AK205,105,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,19-02-25,11:00:00,Kuala Lumpur International Airport,AK380,108,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,19-02-25,18:00:00,Kuala Lumpur International Airport,AK397,127,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,20-02-25,7:00:00,Kuala Lumpur International Airport,AK388,121,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,20-02-25,11:00:00,Kuala Lumpur International Airport,AK332,250,Sultan Abdul Halim Airport,ONTIME
+19:10:00,10,AirAsia,20-02-25,18:00:00,Kuala Lumpur International Airport,AK378,180,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,21-02-25,7:00:00,Kuala Lumpur International Airport,AK379,120,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,21-02-25,11:00:00,Kuala Lumpur International Airport,AK388,214,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,21-02-25,18:00:00,Kuala Lumpur International Airport,AK332,255,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,22-02-25,7:00:00,Kuala Lumpur International Airport,AK378,118,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,22-02-25,11:00:00,Kuala Lumpur International Airport,AK379,121,Sultan Abdul Halim Airport,ONTIME
+19:10:00,10,AirAsia,22-02-25,18:00:00,Kuala Lumpur International Airport,AK380,132,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,23-02-25,7:00:00,Kuala Lumpur International Airport,AK378,108,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,23-02-25,11:00:00,Kuala Lumpur International Airport,AK379,105,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,23-02-25,18:00:00,Kuala Lumpur International Airport,AK397,108,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,24-02-25,7:00:00,Kuala Lumpur International Airport,AK388,127,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,24-02-25,11:00:00,Kuala Lumpur International Airport,AK332,121,Sultan Abdul Halim Airport,ONTIME
+19:10:00,10,AirAsia,24-02-25,18:00:00,Kuala Lumpur International Airport,AK380,132,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,25-02-25,7:00:00,Kuala Lumpur International Airport,AK390,120,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,25-02-25,11:00:00,Kuala Lumpur International Airport,AK379,132,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,25-02-25,18:00:00,Kuala Lumpur International Airport,AK380,145,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,26-02-25,7:00:00,Kuala Lumpur International Airport,AK321,117,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,26-02-25,11:00:00,Kuala Lumpur International Airport,AK379,213,Sultan Abdul Halim Airport,ONTIME
+19:10:00,10,AirAsia,26-02-25,18:00:00,Kuala Lumpur International Airport,AK388,140,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,27-02-25,7:00:00,Kuala Lumpur International Airport,AK332,109,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,27-02-25,11:00:00,Kuala Lumpur International Airport,AK378,123,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,27-02-25,18:00:00,Kuala Lumpur International Airport,AK379,79,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,AirAsia,28-02-25,7:00:00,Kuala Lumpur International Airport,AK380,105,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,AirAsia,28-02-25,11:00:00,Kuala Lumpur International Airport,AK378,204,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,AirAsia,28-02-25,18:00:00,Kuala Lumpur International Airport,AK379,112,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,AirAsia,29-02-2025,7:00:00,Kuala Lumpur International Airport,AK397,107,Sultan Abdul Halim Airport,ONTIME
+12:20:00,10,AirAsia,29-02-2025,11:00:00,Kuala Lumpur International Airport,AK388,134,Sultan Abdul Halim Airport,ONTIME
+19:10:00,10,AirAsia,29-02-2025,18:00:00,Kuala Lumpur International Airport,AK332,79,Sultan Abdul Halim Airport,ONTIME
+9:40:00,10,Batik Air,01-02-25,8:30:00,Kuala Lumpur International Airport,OD001,108,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,01-02-25,14:00:00,Kuala Lumpur International Airport,OD002,120,Sultan Abdul Halim Airport,ONTIME
+22:30:00,10,Batik Air,01-02-25,21:00:00,Kuala Lumpur International Airport,OD003,132,Sultan Abdul Halim Airport,ONTIME
+9:30:00,10,Batik Air,02-02-25,8:30:00,Kuala Lumpur International Airport,OD001,145,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,02-02-25,14:00:00,Kuala Lumpur International Airport,OD002,368,Sultan Abdul Halim Airport,ONTIME
+22:20:00,10,Batik Air,02-02-25,21:00:00,Kuala Lumpur International Airport,OD003,213,Sultan Abdul Halim Airport,ONTIME
+9:40:00,10,Batik Air,03-02-25,8:30:00,Kuala Lumpur International Airport,OD001,140,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,03-02-25,14:00:00,Kuala Lumpur International Airport,OD002,109,Sultan Abdul Halim Airport,ONTIME
+22:30:00,10,Batik Air,03-02-25,21:00:00,Kuala Lumpur International Airport,OD003,326,Sultan Abdul Halim Airport,ONTIME
+9:30:00,10,Batik Air,04-02-25,8:30:00,Kuala Lumpur International Airport,OD001,211,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,04-02-25,14:00:00,Kuala Lumpur International Airport,OD002,105,Sultan Abdul Halim Airport,ONTIME
+22:20:00,10,Batik Air,04-02-25,21:00:00,Kuala Lumpur International Airport,OD003,204,Sultan Abdul Halim Airport,ONTIME
+9:40:00,10,Batik Air,05-02-25,8:30:00,Kuala Lumpur International Airport,OD001,354,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,05-02-25,14:00:00,Kuala Lumpur International Airport,OD002,107,Sultan Abdul Halim Airport,ONTIME
+22:30:00,10,Batik Air,05-02-25,21:00:00,Kuala Lumpur International Airport,OD003,134,Sultan Abdul Halim Airport,ONTIME
+9:10:00,10,Batik Air,06-02-25,8:30:00,Kuala Lumpur International Airport,OD001,79,Sultan Abdul Halim Airport,ONTIME
+15:10:00,10,Batik Air,06-02-25,14:00:00,Kuala Lumpur International Airport,OD002,102,Sultan Abdul Halim Airport,ONTIME
+22:20:00,10,Batik Air,06-02-25,21:00:00,Kuala Lumpur International Airport,OD003,107,Sultan Abdul Halim Airport,ONTIME
+9:30:00,10,Batik Air,07-02-25,8:30:00,Kuala Lumpur International Airport,OD001,108,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,07-02-25,14:00:00,Kuala Lumpur International Airport,OD002,203,Sultan Abdul Halim Airport,ONTIME
+22:20:00,10,Batik Air,07-02-25,21:00:00,Kuala Lumpur International Airport,OD003,106,Sultan Abdul Halim Airport,ONTIME
+9:40:00,10,Batik Air,08-02-25,8:30:00,Kuala Lumpur International Airport,OD001,110,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,08-02-25,14:00:00,Kuala Lumpur International Airport,OD002,86,Sultan Abdul Halim Airport,ONTIME
+22:30:00,10,Batik Air,08-02-25,21:00:00,Kuala Lumpur International Airport,OD003,120,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,09-02-25,11:00:00,Kuala Lumpur International Airport,OD004,132,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,09-02-25,18:00:00,Kuala Lumpur International Airport,OD005,80,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,10-02-25,7:00:00,Kuala Lumpur International Airport,OD006,117,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,10-02-25,11:00:00,Kuala Lumpur International Airport,OD007,213,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,10-02-25,18:00:00,Kuala Lumpur International Airport,OD008,95,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,11-02-25,11:00:00,Kuala Lumpur International Airport,OD010,123,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,11-02-25,18:00:00,Kuala Lumpur International Airport,OD021,211,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,12-02-25,11:00:00,Kuala Lumpur International Airport,OD023,204,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,12-02-25,18:00:00,Kuala Lumpur International Airport,OD056,112,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,13-02-25,8:30:00,Kuala Lumpur International Airport,OD010,86,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,13-02-25,14:00:00,Kuala Lumpur International Airport,OD023,132,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,13-02-25,21:00:00,Kuala Lumpur International Airport,OD017,145,Sultan Abdul Halim Airport,ONTIME
+9:10:00,10,Batik Air,14-02-25,8:30:00,Kuala Lumpur International Airport,OD011,117,Sultan Abdul Halim Airport,ONTIME
+15:10:00,10,Batik Air,14-02-25,14:00:00,Kuala Lumpur International Airport,OD056,213,Sultan Abdul Halim Airport,ONTIME
+22:20:00,10,Batik Air,14-02-25,21:00:00,Kuala Lumpur International Airport,OD008,97,Sultan Abdul Halim Airport,ONTIME
+9:30:00,10,Batik Air,15-02-25,8:30:00,Kuala Lumpur International Airport,OD010,109,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,15-02-25,14:00:00,Kuala Lumpur International Airport,OD021,123,Sultan Abdul Halim Airport,ONTIME
+22:20:00,10,Batik Air,15-02-25,21:00:00,Kuala Lumpur International Airport,OD023,211,Sultan Abdul Halim Airport,ONTIME
+9:40:00,10,Batik Air,16-02-25,8:30:00,Kuala Lumpur International Airport,OD056,105,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,16-02-25,14:00:00,Kuala Lumpur International Airport,OD026,204,Sultan Abdul Halim Airport,ONTIME
+22:30:00,10,Batik Air,16-02-25,21:00:00,Kuala Lumpur International Airport,OD201,112,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,17-02-25,8:30:00,Kuala Lumpur International Airport,OD056,120,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,17-02-25,14:00:00,Kuala Lumpur International Airport,OD010,132,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,17-02-25,21:00:00,Kuala Lumpur International Airport,OD023,145,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,18-02-25,7:00:00,Kuala Lumpur International Airport,OD017,117,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,18-02-25,11:00:00,Kuala Lumpur International Airport,OD011,378,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,18-02-25,18:00:00,Kuala Lumpur International Airport,OD056,140,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,19-02-25,7:00:00,Kuala Lumpur International Airport,OD008,109,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,19-02-25,11:00:00,Kuala Lumpur International Airport,OD010,123,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,19-02-25,18:00:00,Kuala Lumpur International Airport,OD021,211,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,20-02-25,7:00:00,Kuala Lumpur International Airport,OD023,326,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,20-02-25,11:00:00,Kuala Lumpur International Airport,OD056,204,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,20-02-25,18:00:00,Kuala Lumpur International Airport,OD010,112,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,21-02-25,7:00:00,Kuala Lumpur International Airport,OD023,214,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,21-02-25,11:00:00,Kuala Lumpur International Airport,OD008,255,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,21-02-25,18:00:00,Kuala Lumpur International Airport,OD010,118,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,22-02-25,7:00:00,Kuala Lumpur International Airport,OD021,121,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,22-02-25,11:00:00,Kuala Lumpur International Airport,OD023,132,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,22-02-25,18:00:00,Kuala Lumpur International Airport,OD056,108,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,23-02-25,7:00:00,Kuala Lumpur International Airport,OD010,105,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,23-02-25,11:00:00,Kuala Lumpur International Airport,OD006,108,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,23-02-25,18:00:00,Kuala Lumpur International Airport,OD007,127,Sultan Abdul Halim Airport,ONTIME
+8:30:00,10,Batik Air,24-02-25,8:30:00,Kuala Lumpur International Airport,OD008,121,Sultan Abdul Halim Airport,ONTIME
+12:30:00,10,Batik Air,24-02-25,14:00:00,Kuala Lumpur International Airport,OD010,118,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Batik Air,24-02-25,21:00:00,Kuala Lumpur International Airport,OD021,180,Sultan Abdul Halim Airport,ONTIME
+9:40:00,10,Batik Air,25-02-25,8:30:00,Kuala Lumpur International Airport,OD023,105,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,25-02-25,14:00:00,Kuala Lumpur International Airport,OD056,198,Sultan Abdul Halim Airport,ONTIME
+22:30:00,10,Batik Air,25-02-25,21:00:00,Kuala Lumpur International Airport,OD010,180,Sultan Abdul Halim Airport,ONTIME
+9:30:00,10,Batik Air,26-02-25,8:30:00,Kuala Lumpur International Airport,OD023,214,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,26-02-25,14:00:00,Kuala Lumpur International Airport,OD006,255,Sultan Abdul Halim Airport,ONTIME
+22:20:00,10,Batik Air,26-02-25,21:00:00,Kuala Lumpur International Airport,OD007,118,Sultan Abdul Halim Airport,ONTIME
+9:40:00,10,Batik Air,27-02-25,8:30:00,Kuala Lumpur International Airport,OD008,121,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,27-02-25,14:00:00,Kuala Lumpur International Airport,OD010,132,Sultan Abdul Halim Airport,ONTIME
+22:30:00,10,Batik Air,27-02-25,21:00:00,Kuala Lumpur International Airport,OD021,108,Sultan Abdul Halim Airport,ONTIME
+9:30:00,10,Batik Air,28-02-25,8:30:00,Kuala Lumpur International Airport,OD023,79,Sultan Abdul Halim Airport,ONTIME
+15:30:00,10,Batik Air,28-02-25,14:00:00,Kuala Lumpur International Airport,OD056,108,Sultan Abdul Halim Airport,ONTIME
+22:20:00,10,Batik Air,28-02-25,21:00:00,Kuala Lumpur International Airport,OD010,127,Sultan Abdul Halim Airport,ONTIME
+9:40:00,10,Batik Air,29-02-2025,8:30:00,Kuala Lumpur International Airport,OD023,97,Sultan Abdul Halim Airport,ONTIME
+22:30:00,10,Batik Air,29-02-2025,21:00:00,Kuala Lumpur International Airport,OD383,180,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,01-02-25,10:00:00,Kuala Lumpur International Airport,MH569,180,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,01-02-25,17:00:00,Kuala Lumpur International Airport,MH589,120,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,01-02-25,23:00:00,Kuala Lumpur International Airport,MH432,214,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,02-02-25,10:00:00,Kuala Lumpur International Airport,MH392,80,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,02-02-25,17:00:00,Kuala Lumpur International Airport,MH323,118,Sultan Abdul Halim Airport,ONTIME
+0:00:00,10,Malaysia Airlines,02-02-25,23:00:00,Kuala Lumpur International Airport,MH384,121,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,03-02-25,10:00:00,Kuala Lumpur International Airport,MH288,132,Sultan Abdul Halim Airport,ONTIME
+18:10:00,10,Malaysia Airlines,03-02-25,17:00:00,Kuala Lumpur International Airport,MH210,108,Sultan Abdul Halim Airport,ONTIME
+0:20:00,10,Malaysia Airlines,03-02-25,23:00:00,Kuala Lumpur International Airport,MH839,95,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,04-02-25,10:00:00,Kuala Lumpur International Airport,MH300,108,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,04-02-25,17:00:00,Kuala Lumpur International Airport,MH589,127,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,04-02-25,23:00:00,Kuala Lumpur International Airport,MH599,121,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,05-02-25,10:00:00,Kuala Lumpur International Airport,MH569,231,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,05-02-25,17:00:00,Kuala Lumpur International Airport,MH203,180,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,05-02-25,23:00:00,Kuala Lumpur International Airport,MH200,79,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,06-02-25,10:00:00,Kuala Lumpur International Airport,MH432,198,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,06-02-25,17:00:00,Kuala Lumpur International Airport,MH392,180,Sultan Abdul Halim Airport,ONTIME
+0:00:00,10,Malaysia Airlines,06-02-25,23:00:00,Kuala Lumpur International Airport,MH323,100,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,07-02-25,10:00:00,Kuala Lumpur International Airport,MH384,132,Sultan Abdul Halim Airport,ONTIME
+18:10:00,10,Malaysia Airlines,07-02-25,17:00:00,Kuala Lumpur International Airport,MH288,365,Sultan Abdul Halim Airport,ONTIME
+0:20:00,10,Malaysia Airlines,07-02-25,23:00:00,Kuala Lumpur International Airport,MH210,209,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,08-02-25,10:00:00,Kuala Lumpur International Airport,MH839,219,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,08-02-25,17:00:00,Kuala Lumpur International Airport,MH300,215,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,08-02-25,23:00:00,Kuala Lumpur International Airport,MH201,120,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,Malaysia Airlines,09-02-25,7:00:00,Kuala Lumpur International Airport,MH572,326,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,02-02-25,10:00:00,Kuala Lumpur International Airport,MH392,255,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Malaysia Airlines,09-02-25,18:00:00,Kuala Lumpur International Airport,MH309,118,Sultan Abdul Halim Airport,ONTIME
+8:20:00,10,Malaysia Airlines,10-02-25,7:00:00,Kuala Lumpur International Airport,MH203,121,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,02-02-25,10:00:00,Kuala Lumpur International Airport,MH832,79,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Malaysia Airlines,10-02-25,18:00:00,Kuala Lumpur International Airport,MH203,108,Sultan Abdul Halim Airport,ONTIME
+8:00:00,10,Malaysia Airlines,11-02-25,7:00:00,Kuala Lumpur International Airport,MH200,105,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,02-02-25,10:00:00,Kuala Lumpur International Airport,MH432,108,Sultan Abdul Halim Airport,ONTIME
+19:30:00,10,Malaysia Airlines,11-02-25,18:00:00,Kuala Lumpur International Airport,MH392,127,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,12-02-25,10:00:00,Kuala Lumpur International Airport,MH323,121,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,12-02-25,17:00:00,Kuala Lumpur International Airport,MH384,231,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,12-02-25,23:00:00,Kuala Lumpur International Airport,MH288,180,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,13-02-25,10:00:00,Kuala Lumpur International Airport,MH210,105,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,13-02-25,17:00:00,Kuala Lumpur International Airport,MH839,120,Sultan Abdul Halim Airport,ONTIME
+0:00:00,10,Malaysia Airlines,13-02-25,23:00:00,Kuala Lumpur International Airport,MH300,79,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,14-02-25,10:00:00,Kuala Lumpur International Airport,MH201,255,Sultan Abdul Halim Airport,ONTIME
+18:10:00,10,Malaysia Airlines,14-02-25,17:00:00,Kuala Lumpur International Airport,MH281,118,Sultan Abdul Halim Airport,ONTIME
+0:20:00,10,Malaysia Airlines,14-02-25,23:00:00,Kuala Lumpur International Airport,MH203,325,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,15-02-25,10:00:00,Kuala Lumpur International Airport,MH200,132,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,02-02-25,17:00:00,Kuala Lumpur International Airport,MH432,108,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,15-02-25,23:00:00,Kuala Lumpur International Airport,MH392,366,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,16-02-25,10:00:00,Kuala Lumpur International Airport,MH323,108,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,16-02-25,17:00:00,Kuala Lumpur International Airport,MH384,127,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,16-02-25,23:00:00,Kuala Lumpur International Airport,MH288,121,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,17-02-25,10:00:00,Kuala Lumpur International Airport,MH210,231,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,17-02-25,17:00:00,Kuala Lumpur International Airport,MH839,180,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,17-02-25,23:00:00,Kuala Lumpur International Airport,MH300,105,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,18-02-25,10:00:00,Kuala Lumpur International Airport,MH201,120,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,18-02-25,17:00:00,Kuala Lumpur International Airport,MH569,79,Sultan Abdul Halim Airport,ONTIME
+0:00:00,10,Malaysia Airlines,18-02-25,23:00:00,Kuala Lumpur International Airport,MH589,255,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,19-02-25,10:00:00,Kuala Lumpur International Airport,MH432,118,Sultan Abdul Halim Airport,ONTIME
+18:10:00,10,Malaysia Airlines,19-02-25,17:00:00,Kuala Lumpur International Airport,MH392,121,Sultan Abdul Halim Airport,ONTIME
+0:20:00,10,Malaysia Airlines,19-02-25,23:00:00,Kuala Lumpur International Airport,MH323,132,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,20-02-25,10:00:00,Kuala Lumpur International Airport,MH384,84,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,20-02-25,17:00:00,Kuala Lumpur International Airport,MH288,105,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,20-02-25,23:00:00,Kuala Lumpur International Airport,MH210,108,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,21-02-25,10:00:00,Kuala Lumpur International Airport,MH839,95,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,21-02-25,17:00:00,Kuala Lumpur International Airport,MH300,121,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,21-02-25,23:00:00,Kuala Lumpur International Airport,MH569,96,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,22-02-25,10:00:00,Kuala Lumpur International Airport,MH589,180,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,22-02-25,17:00:00,Kuala Lumpur International Airport,MH432,105,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,22-02-25,23:00:00,Kuala Lumpur International Airport,MH392,120,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,23-02-25,10:00:00,Kuala Lumpur International Airport,MH323,79,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,23-02-25,17:00:00,Kuala Lumpur International Airport,MH384,255,Sultan Abdul Halim Airport,ONTIME
+0:00:00,10,Malaysia Airlines,23-02-25,23:00:00,Kuala Lumpur International Airport,MH288,118,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,24-02-25,10:00:00,Kuala Lumpur International Airport,MH210,121,Sultan Abdul Halim Airport,ONTIME
+18:10:00,10,Malaysia Airlines,24-02-25,17:00:00,Kuala Lumpur International Airport,MH839,94,Sultan Abdul Halim Airport,ONTIME
+0:20:00,10,Malaysia Airlines,24-02-25,23:00:00,Kuala Lumpur International Airport,MH300,108,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,25-02-25,10:00:00,Kuala Lumpur International Airport,MH569,105,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,25-02-25,17:00:00,Kuala Lumpur International Airport,MH589,108,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,25-02-25,23:00:00,Kuala Lumpur International Airport,MH432,127,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,26-02-25,10:00:00,Kuala Lumpur International Airport,MH392,121,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,26-02-25,17:00:00,Kuala Lumpur International Airport,MH323,92,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,26-02-25,23:00:00,Kuala Lumpur International Airport,MH384,180,Sultan Abdul Halim Airport,ONTIME
+11:30:00,10,Malaysia Airlines,27-02-25,10:00:00,Kuala Lumpur International Airport,MH288,105,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,27-02-25,17:00:00,Kuala Lumpur International Airport,MH210,120,Sultan Abdul Halim Airport,ONTIME
+0:10:00,10,Malaysia Airlines,27-02-25,23:00:00,Kuala Lumpur International Airport,MH839,214,Sultan Abdul Halim Airport,ONTIME
+11:20:00,10,Malaysia Airlines,28-02-25,10:00:00,Kuala Lumpur International Airport,MH300,255,Sultan Abdul Halim Airport,ONTIME
+18:20:00,10,Malaysia Airlines,28-02-25,17:00:00,Kuala Lumpur International Airport,MH569,118,Sultan Abdul Halim Airport,ONTIME
+0:00:00,10,Malaysia Airlines,28-02-25,23:00:00,Kuala Lumpur International Airport,MH589,97,Sultan Abdul Halim Airport,ONTIME
+11:10:00,10,Malaysia Airlines,29-02-2025,10:00:00,Kuala Lumpur International Airport,MH432,132,Sultan Abdul Halim Airport,ONTIME
+18:10:00,10,Malaysia Airlines,29-02-2025,17:00:00,Kuala Lumpur International Airport,MH392,108,Sultan Abdul Halim Airport,ONTIME
+0:20:00,10,Malaysia Airlines,29-02-2025,23:00:00,Kuala Lumpur International Airport,MH323,105,Sultan Abdul Halim Airport,ONTIME
+9:35:00,10,Batik Air,01-02-25,8:30:00,Penang International Airport,OD004,398,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Batik Air,01-02-25,14:00:00,Penang International Airport,OD032,123,Kuala Lumpur International Airport 2,ONTIME
+19:05:00,10,Batik Air,01-02-25,18:00:00,Penang International Airport,OD324,307,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,02-02-25,8:30:00,Penang International Airport,OD594,98,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,02-02-25,14:00:00,Penang International Airport,OD053,534,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,02-02-25,21:00:00,Penang International Airport,OD050,389,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,03-02-25,8:30:00,Penang International Airport,OD242,307,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,03-02-25,14:00:00,Penang International Airport,OD436,79,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,03-02-25,21:00:00,Penang International Airport,OD243,307,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,04-02-25,8:30:00,Penang International Airport,OD576,395,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,04-02-25,14:00:00,Penang International Airport,OD253,465,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,04-02-25,21:00:00,Penang International Airport,OD694,307,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,05-02-25,8:30:00,Penang International Airport,OD050,95,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,05-02-25,14:00:00,Penang International Airport,OD482,390,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,05-02-25,21:00:00,Penang International Airport,OD549,386,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,06-02-25,8:30:00,Penang International Airport,OD443,307,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,06-02-25,14:00:00,Penang International Airport,OD392,121,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,06-02-25,21:00:00,Penang International Airport,OD326,255,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,07-02-25,8:30:00,Penang International Airport,OD004,108,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,07-02-25,14:00:00,Penang International Airport,OD005,127,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,07-02-25,21:00:00,Penang International Airport,OD006,121,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,08-02-25,8:30:00,Penang International Airport,OD004,132,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,08-02-25,14:00:00,Penang International Airport,OD005,120,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,08-02-25,21:00:00,Penang International Airport,OD006,132,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Batik Air,09-02-25,8:30:00,Penang International Airport,OD004,397,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Batik Air,09-02-25,14:00:00,Penang International Airport,OD005,324,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Batik Air,10-02-25,8:30:00,Penang International Airport,OD006,95,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Batik Air,10-02-25,14:00:00,Penang International Airport,OD007,324,Kuala Lumpur International Airport 2,ONTIME
+19:05:00,10,Batik Air,10-02-25,18:00:00,Penang International Airport,OD008,354,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,11-02-25,8:30:00,Penang International Airport,OD010,354,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,11-02-25,14:00:00,Penang International Airport,OD021,324,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Batik Air,12-02-25,8:30:00,Penang International Airport,OD023,177,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Batik Air,12-02-25,14:00:00,Penang International Airport,OD056,324,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Batik Air,13-02-25,8:30:00,Penang International Airport,OD010,324,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Batik Air,13-02-25,14:00:00,Penang International Airport,OD023,376,Kuala Lumpur International Airport 2,ONTIME
+19:05:00,10,Batik Air,13-02-25,18:00:00,Penang International Airport,OD017,307,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,14-02-25,8:30:00,Penang International Airport,OD011,93,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,14-02-25,14:00:00,Penang International Airport,OD056,354,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,14-02-25,21:00:00,Penang International Airport,OD008,97,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,15-02-25,8:30:00,Penang International Airport,OD010,109,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,15-02-25,14:00:00,Penang International Airport,OD021,123,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,15-02-25,21:00:00,Penang International Airport,OD023,211,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,16-02-25,8:30:00,Penang International Airport,OD056,105,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,16-02-25,14:00:00,Penang International Airport,OD026,204,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,16-02-25,21:00:00,Penang International Airport,OD201,112,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,17-02-25,8:30:00,Penang International Airport,OD056,120,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,17-02-25,14:00:00,Penang International Airport,OD010,132,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,17-02-25,21:00:00,Penang International Airport,OD023,145,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Batik Air,18-02-25,8:30:00,Penang International Airport,OD017,117,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Batik Air,18-02-25,14:00:00,Penang International Airport,OD011,378,Kuala Lumpur International Airport 2,ONTIME
+19:05:00,10,Batik Air,18-02-25,18:00:00,Penang International Airport,OD056,140,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,19-02-25,8:30:00,Penang International Airport,OD008,109,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,19-02-25,14:00:00,Penang International Airport,OD010,123,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,19-02-25,21:00:00,Penang International Airport,OD021,211,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,20-02-25,8:30:00,Penang International Airport,OD023,326,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,20-02-25,14:00:00,Penang International Airport,OD056,204,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,20-02-25,21:00:00,Penang International Airport,OD010,112,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,21-02-25,8:30:00,Penang International Airport,OD023,214,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,21-02-25,14:00:00,Penang International Airport,OD008,255,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,21-02-25,21:00:00,Penang International Airport,OD010,118,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Batik Air,22-02-25,8:30:00,Penang International Airport,OD021,121,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Batik Air,22-02-25,14:00:00,Penang International Airport,OD023,132,Kuala Lumpur International Airport 2,ONTIME
+22:05:00,10,Batik Air,22-02-25,21:00:00,Penang International Airport,OD056,108,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,23-02-25,8:30:00,Penang International Airport,OD010,105,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,23-02-25,14:00:00,Penang International Airport,OD006,108,Kuala Lumpur International Airport 2,ONTIME
+19:00:00,10,Batik Air,23-02-25,18:00:00,Penang International Airport,OD007,127,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,24-02-25,8:30:00,Penang International Airport,OD008,121,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,24-02-25,14:00:00,Penang International Airport,OD010,118,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,24-02-25,21:00:00,Penang International Airport,OD021,180,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,25-02-25,8:30:00,Penang International Airport,OD023,105,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Batik Air,25-02-25,14:00:00,Penang International Airport,OD056,198,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Batik Air,25-02-25,21:00:00,Penang International Airport,OD010,180,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,26-02-25,8:30:00,Penang International Airport,OD023,214,Kuala Lumpur International Airport 2,ONTIME
+15:30:00,10,Batik Air,26-02-25,14:00:00,Penang International Airport,OD006,255,Kuala Lumpur International Airport 2,ONTIME
+22:20:00,10,Batik Air,26-02-25,21:00:00,Penang International Airport,OD007,118,Kuala Lumpur International Airport 2,ONTIME
+9:40:00,10,Batik Air,27-02-25,8:30:00,Penang International Airport,OD008,121,Kuala Lumpur International Airport 2,ONTIME
+15:30:00,10,Batik Air,27-02-25,14:00:00,Penang International Airport,OD010,132,Kuala Lumpur International Airport 2,ONTIME
+22:30:00,10,Batik Air,27-02-25,21:00:00,Penang International Airport,OD021,108,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Batik Air,28-02-25,8:30:00,Penang International Airport,OD023,79,Kuala Lumpur International Airport 2,ONTIME
+15:30:00,10,Batik Air,28-02-25,14:00:00,Penang International Airport,OD056,108,Kuala Lumpur International Airport 2,ONTIME
+19:20:00,10,Batik Air,28-02-25,18:00:00,Penang International Airport,OD010,127,Kuala Lumpur International Airport 2,ONTIME
+9:40:00,10,Batik Air,29-02-2025,8:30:00,Penang International Airport,OD023,97,Kuala Lumpur International Airport 2,ONTIME
+22:10:00,10,Batik Air,29-02-2025,21:00:00,Penang International Airport,OD383,180,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Malaysia Airlines,01-02-25,8:30:00,Penang International Airport,MH453,108,Kuala Lumpur International Airport 2,ONTIME
+17:40:00,10,Malaysia Airlines,01-02-25,16:30:00,Penang International Airport,MH464,120,Kuala Lumpur International Airport 2,ONTIME
+23:20:00,10,Malaysia Airlines,01-02-25,22:20:00,Penang International Airport,MH787,132,Kuala Lumpur International Airport 2,ONTIME
+12:30:00,10,Malaysia Airlines,02-02-25,11:30:00,Penang International Airport,MH654,145,Kuala Lumpur International Airport 2,ONTIME
+17:05:00,10,Malaysia Airlines,02-02-25,16:00:00,Penang International Airport,MH364,368,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,02-02-25,21:00:00,Penang International Airport,MH773,213,Kuala Lumpur International Airport 2,ONTIME
+10:30:00,10,Malaysia Airlines,03-02-25,9:30:00,Penang International Airport,MH325,140,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,03-02-25,14:00:00,Penang International Airport,MH573,109,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,03-02-25,21:00:00,Penang International Airport,MH683,326,Kuala Lumpur International Airport 2,ONTIME
+9:10:00,10,Malaysia Airlines,04-02-25,8:00:00,Penang International Airport,MH454,211,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,04-02-25,14:00:00,Penang International Airport,MH325,105,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,04-02-25,21:00:00,Penang International Airport,MH453,204,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,Malaysia Airlines,05-02-25,9:00:00,Penang International Airport,MH464,354,Kuala Lumpur International Airport 2,ONTIME
+17:05:00,10,Malaysia Airlines,05-02-25,16:00:00,Penang International Airport,MH787,107,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,05-02-25,21:00:00,Penang International Airport,MH654,134,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,06-02-25,8:30:00,Penang International Airport,MH364,79,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,06-02-25,14:00:00,Penang International Airport,MH773,398,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,06-02-25,21:00:00,Penang International Airport,MH325,123,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,07-02-25,8:30:00,Penang International Airport,MH573,307,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,07-02-25,14:00:00,Penang International Airport,MH683,98,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,07-02-25,21:00:00,Penang International Airport,MH454,396,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Malaysia Airlines,08-02-25,8:30:00,Penang International Airport,MH325,389,Kuala Lumpur International Airport 2,ONTIME
+17:40:00,10,Malaysia Airlines,08-02-25,16:30:00,Penang International Airport,MH453,307,Kuala Lumpur International Airport 2,ONTIME
+23:20:00,10,Malaysia Airlines,08-02-25,22:20:00,Penang International Airport,MH464,79,Kuala Lumpur International Airport 2,ONTIME
+12:30:00,10,Malaysia Airlines,09-02-25,11:30:00,Penang International Airport,MH787,307,Kuala Lumpur International Airport 2,ONTIME
+17:05:00,10,Malaysia Airlines,09-02-25,16:00:00,Penang International Airport,MH654,145,Kuala Lumpur International Airport 2,ONTIME
+10:30:00,10,Malaysia Airlines,10-02-25,9:30:00,Penang International Airport,MH364,117,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,10-02-25,14:00:00,Penang International Airport,MH773,213,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,10-02-25,21:00:00,Penang International Airport,MH325,97,Kuala Lumpur International Airport 2,ONTIME
+9:10:00,10,Malaysia Airlines,11-02-25,8:00:00,Penang International Airport,MH573,109,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,11-02-25,14:00:00,Penang International Airport,MH683,123,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Malaysia Airlines,12-02-25,8:30:00,Penang International Airport,MH454,211,Kuala Lumpur International Airport 2,ONTIME
+17:40:00,10,Malaysia Airlines,12-02-25,16:30:00,Penang International Airport,MH325,105,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Malaysia Airlines,13-02-25,8:30:00,Penang International Airport,MH453,204,Kuala Lumpur International Airport 2,ONTIME
+17:40:00,10,Malaysia Airlines,13-02-25,16:30:00,Penang International Airport,MH464,112,Kuala Lumpur International Airport 2,ONTIME
+23:20:00,10,Malaysia Airlines,13-02-25,22:20:00,Penang International Airport,MH787,398,Kuala Lumpur International Airport 2,ONTIME
+12:30:00,10,Malaysia Airlines,14-02-25,11:30:00,Penang International Airport,MH654,123,Kuala Lumpur International Airport 2,ONTIME
+17:05:00,10,Malaysia Airlines,14-02-25,16:00:00,Penang International Airport,MH364,307,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,14-02-25,21:00:00,Penang International Airport,MH773,98,Kuala Lumpur International Airport 2,ONTIME
+10:30:00,10,Malaysia Airlines,15-02-25,9:30:00,Penang International Airport,MH325,397,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,15-02-25,14:00:00,Penang International Airport,MH573,389,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,15-02-25,21:00:00,Penang International Airport,MH683,307,Kuala Lumpur International Airport 2,ONTIME
+9:10:00,10,Malaysia Airlines,16-02-25,8:00:00,Penang International Airport,MH454,79,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,16-02-25,14:00:00,Penang International Airport,MH325,307,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,16-02-25,21:00:00,Penang International Airport,MH453,108,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,17-02-25,8:30:00,Penang International Airport,MH464,366,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,17-02-25,14:00:00,Penang International Airport,MH787,108,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,17-02-25,21:00:00,Penang International Airport,MH654,127,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Malaysia Airlines,18-02-25,8:30:00,Penang International Airport,MH364,121,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Malaysia Airlines,18-02-25,14:00:00,Penang International Airport,MH773,231,Kuala Lumpur International Airport 2,ONTIME
+19:05:00,10,Malaysia Airlines,18-02-25,18:00:00,Penang International Airport,MH325,180,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,19-02-25,8:30:00,Penang International Airport,MH573,105,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,19-02-25,14:00:00,Penang International Airport,MH683,120,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,19-02-25,21:00:00,Penang International Airport,MH454,79,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,20-02-25,8:30:00,Penang International Airport,MH325,326,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,20-02-25,14:00:00,Penang International Airport,MH453,204,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,20-02-25,21:00:00,Penang International Airport,MH464,112,Kuala Lumpur International Airport 2,ONTIME
+9:35:00,10,Malaysia Airlines,21-02-25,8:30:00,Penang International Airport,MH787,214,Kuala Lumpur International Airport 2,ONTIME
+17:40:00,10,Malaysia Airlines,21-02-25,16:30:00,Penang International Airport,MH654,255,Kuala Lumpur International Airport 2,ONTIME
+23:20:00,10,Malaysia Airlines,21-02-25,22:20:00,Penang International Airport,MH364,118,Kuala Lumpur International Airport 2,ONTIME
+12:30:00,10,Malaysia Airlines,22-02-25,11:30:00,Penang International Airport,MH773,121,Kuala Lumpur International Airport 2,ONTIME
+17:05:00,10,Malaysia Airlines,22-02-25,16:00:00,Penang International Airport,MH325,132,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,22-02-25,21:00:00,Penang International Airport,MH573,108,Kuala Lumpur International Airport 2,ONTIME
+10:30:00,10,Malaysia Airlines,23-02-25,9:30:00,Penang International Airport,MH683,79,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,23-02-25,14:00:00,Penang International Airport,MH454,255,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,23-02-25,21:00:00,Penang International Airport,MH325,118,Kuala Lumpur International Airport 2,ONTIME
+9:10:00,10,Malaysia Airlines,24-02-25,8:00:00,Penang International Airport,MH453,325,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,24-02-25,14:00:00,Penang International Airport,MH464,132,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,24-02-25,21:00:00,Penang International Airport,MH787,108,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,25-02-25,8:30:00,Penang International Airport,MH654,366,Kuala Lumpur International Airport 2,ONTIME
+15:05:00,10,Malaysia Airlines,25-02-25,14:00:00,Penang International Airport,MH364,108,Kuala Lumpur International Airport 2,ONTIME
+22:00:00,10,Malaysia Airlines,25-02-25,21:00:00,Penang International Airport,MH773,127,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,26-02-25,8:30:00,Penang International Airport,MH325,121,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Malaysia Airlines,26-02-25,14:00:00,Penang International Airport,MH573,231,Kuala Lumpur International Airport 2,ONTIME
+22:20:00,10,Malaysia Airlines,26-02-25,21:00:00,Penang International Airport,MH683,180,Kuala Lumpur International Airport 2,ONTIME
+9:40:00,10,Malaysia Airlines,27-02-25,8:30:00,Penang International Airport,MH454,105,Kuala Lumpur International Airport 2,ONTIME
+15:30:00,10,Malaysia Airlines,27-02-25,14:00:00,Penang International Airport,MH325,120,Kuala Lumpur International Airport 2,ONTIME
+22:30:00,10,Malaysia Airlines,27-02-25,21:00:00,Penang International Airport,MH453,79,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,28-02-25,8:30:00,Penang International Airport,MH464,79,Kuala Lumpur International Airport 2,ONTIME
+15:30:00,10,Malaysia Airlines,28-02-25,14:00:00,Penang International Airport,MH787,108,Kuala Lumpur International Airport 2,ONTIME
+19:20:00,10,Malaysia Airlines,28-02-25,18:00:00,Penang International Airport,MH654,127,Kuala Lumpur International Airport 2,ONTIME
+9:30:00,10,Malaysia Airlines,29-02-2025,8:30:00,Penang International Airport,MH364,97,Kuala Lumpur International Airport 2,ONTIME
+15:10:00,10,Malaysia Airlines,29-02-2025,14:00:00,Penang International Airport,MH773,180,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,01-02-25,9:00:00,Penang International Airport,AK378,307,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,01-02-25,16:00:00,Penang International Airport,AK379,243,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,01-02-25,22:00:00,Penang International Airport,AK380,79,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,02-02-25,9:00:00,Penang International Airport,AK378,307,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,02-02-25,16:00:00,Penang International Airport,AK379,389,Kuala Lumpur International Airport 2,ONTIME
+23:00:00,10,AirAsia,02-02-25,22:00:00,Penang International Airport,AK380,380,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,03-02-25,9:00:00,Penang International Airport,AK378,324,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,03-02-25,16:00:00,Penang International Airport,AK379,84,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,03-02-25,22:00:00,Penang International Airport,AK380,324,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,04-02-25,9:00:00,Penang International Airport,AK378,255,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,04-02-25,16:00:00,Penang International Airport,AK379,324,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,04-02-25,22:00:00,Penang International Airport,AK380,397,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,05-02-25,9:00:00,Penang International Airport,AK378,324,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,05-02-25,16:00:00,Penang International Airport,AK379,95,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,05-02-25,22:00:00,Penang International Airport,AK907,324,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,06-02-25,9:00:00,Penang International Airport,AK321,354,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,06-02-25,16:00:00,Penang International Airport,AK090,354,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,06-02-25,22:00:00,Penang International Airport,AK432,324,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,07-02-25,9:00:00,Penang International Airport,AK548,177,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,07-02-25,16:00:00,Penang International Airport,AK040,324,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,07-02-25,22:00:00,Penang International Airport,AK303,324,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,08-02-25,9:00:00,Penang International Airport,AK342,376,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,08-02-25,16:00:00,Penang International Airport,AK364,307,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,08-02-25,22:00:00,Penang International Airport,AK343,93,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,09-02-25,9:00:00,Penang International Airport,AK453,398,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,09-02-25,16:00:00,Penang International Airport,AK231,307,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,09-02-25,22:00:00,Penang International Airport,AK659,398,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,10-02-25,9:00:00,Penang International Airport,AK493,123,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,10-02-25,16:00:00,Penang International Airport,AK043,307,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,10-02-25,22:00:00,Penang International Airport,AK321,98,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,11-02-25,9:00:00,Penang International Airport,AK504,534,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,11-02-25,16:00:00,Penang International Airport,AK403,389,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,11-02-25,22:00:00,Penang International Airport,AK050,307,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,12-02-25,9:00:00,Penang International Airport,AK090,79,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,12-02-25,16:00:00,Penang International Airport,AK432,307,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,12-02-25,22:00:00,Penang International Airport,AK548,395,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,13-02-25,9:00:00,Penang International Airport,AK040,465,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,13-02-25,16:00:00,Penang International Airport,AK303,307,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,13-02-25,22:00:00,Penang International Airport,AK342,95,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,14-02-25,9:00:00,Penang International Airport,AK364,390,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,14-02-25,16:00:00,Penang International Airport,AK343,386,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,14-02-25,22:00:00,Penang International Airport,AK453,307,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,15-02-25,9:00:00,Penang International Airport,AK378,121,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,15-02-25,16:00:00,Penang International Airport,AK379,231,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,15-02-25,22:00:00,Penang International Airport,AK380,180,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,16-02-25,9:00:00,Penang International Airport,AK378,250,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,16-02-25,16:00:00,Penang International Airport,AK379,180,Kuala Lumpur International Airport 2,ONTIME
+23:00:00,10,AirAsia,16-02-25,22:00:00,Penang International Airport,AK907,120,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,17-02-25,9:00:00,Penang International Airport,AK321,214,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,17-02-25,16:00:00,Penang International Airport,AK090,255,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,17-02-25,22:00:00,Penang International Airport,AK432,118,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,18-02-25,9:00:00,Penang International Airport,AK548,121,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,18-02-25,16:00:00,Penang International Airport,AK040,132,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,18-02-25,22:00:00,Penang International Airport,AK303,108,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,19-02-25,9:00:00,Penang International Airport,AK342,105,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,19-02-25,16:00:00,Penang International Airport,AK378,108,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,19-02-25,22:00:00,Penang International Airport,AK379,79,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,20-02-25,9:00:00,Penang International Airport,AK380,307,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,20-02-25,16:00:00,Penang International Airport,AK378,389,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,20-02-25,22:00:00,Penang International Airport,AK379,380,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,21-02-25,9:00:00,Penang International Airport,AK907,324,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,21-02-25,16:00:00,Penang International Airport,AK321,84,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,21-02-25,22:00:00,Penang International Airport,AK090,324,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,22-02-25,9:00:00,Penang International Airport,AK432,255,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,22-02-25,16:00:00,Penang International Airport,AK548,324,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,22-02-25,22:00:00,Penang International Airport,AK040,397,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,23-02-25,9:00:00,Penang International Airport,AK303,324,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,23-02-25,16:00:00,Penang International Airport,AK342,105,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,23-02-25,22:00:00,Penang International Airport,AK378,108,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,24-02-25,9:00:00,Penang International Airport,AK379,127,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,24-02-25,16:00:00,Penang International Airport,AK380,121,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,24-02-25,22:00:00,Penang International Airport,AK378,132,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,25-02-25,9:00:00,Penang International Airport,AK379,120,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,25-02-25,16:00:00,Penang International Airport,AK907,132,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,25-02-25,22:00:00,Penang International Airport,AK321,397,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,26-02-25,9:00:00,Penang International Airport,AK090,324,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,26-02-25,16:00:00,Penang International Airport,AK432,95,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,26-02-25,22:00:00,Penang International Airport,AK548,324,Kuala Lumpur International Airport 2,ONTIME
+10:10:00,10,AirAsia,27-02-25,9:00:00,Penang International Airport,AK040,354,Kuala Lumpur International Airport 2,ONTIME
+17:10:00,10,AirAsia,27-02-25,16:00:00,Penang International Airport,AK303,354,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,27-02-25,22:00:00,Penang International Airport,AK342,324,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,28-02-25,9:00:00,Penang International Airport,AK378,177,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,28-02-25,16:00:00,Penang International Airport,AK379,324,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,28-02-25,22:00:00,Penang International Airport,AK380,324,Kuala Lumpur International Airport 2,ONTIME
+10:00:00,10,AirAsia,29-02-2025,9:00:00,Penang International Airport,AK378,376,Kuala Lumpur International Airport 2,ONTIME
+17:00:00,10,AirAsia,29-02-2025,16:00:00,Penang International Airport,AK379,307,Kuala Lumpur International Airport 2,ONTIME
+23:10:00,10,AirAsia,29-02-2025,22:00:00,Penang International Airport,AK907,93,Kuala Lumpur International Airport 2,ONTIME

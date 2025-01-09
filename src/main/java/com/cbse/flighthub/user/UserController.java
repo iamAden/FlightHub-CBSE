@@ -69,8 +69,7 @@ public class UserController {
 
 
     @GetMapping("/bookinghistory")
-    public List<Booking> bookingHistory(HttpServletRequest request) {
-        System.out.println("HELLOOOOO");
+    public List<Booking> getBookingHistory(HttpServletRequest request) {
         // Retrieve the userId from the cookie
         String userId = null;
         Cookie[] cookies = request.getCookies();
@@ -84,14 +83,12 @@ public class UserController {
         }
 
         // Log the cookie for debugging
-        System.out.println("userId from cookie: " + userId);
         if (userId == null) {
             return Collections.emptyList();
         }
 
         try {
             List<Booking> bookings = bookingService.getBookingsByUserId(userId);
-            System.out.println(bookings);
             return bookings;
         } catch (Exception e) {
             e.printStackTrace();
@@ -99,4 +96,5 @@ public class UserController {
 
         return Collections.emptyList();
     }
+
 }

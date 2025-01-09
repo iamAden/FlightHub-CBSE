@@ -1,16 +1,15 @@
 package com.cbse.flighthub.flight;
 
 import com.cbse.flighthub.base.entity.Flight;
+import com.cbse.flighthub.base.interfaces.FlightService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
 @Service
-public class FlightServiceImpl implements com.cbse.flighthub.base.interfaces.FlightService {
+public class FlightServiceImpl implements FlightService {
     @Autowired
     FlightRepository flightRepository;
 
@@ -47,13 +46,4 @@ public class FlightServiceImpl implements com.cbse.flighthub.base.interfaces.Fli
         return flightRepository.save(flight);
     }
 
-    @Override
-    public List<String> getOrigins() {
-        return flightRepository.getOrigin();
-    }
-
-    @Override
-    public List<String> getDestinations() {
-        return flightRepository.getDestination();
-    }
 }
