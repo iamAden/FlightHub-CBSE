@@ -46,4 +46,14 @@ public class FlightServiceImpl implements com.cbse.flighthub.base.interfaces.Fli
     public Flight saveFlight(Flight flight) {
         return flightRepository.save(flight);
     }
+
+    @Override
+    public List<String> getOrigins() {
+        return flightRepository.getOrigin();
+    }
+
+    @Override
+    public List<String> getDestinations() {
+        return flightRepository.getDestination();
+    }
 }

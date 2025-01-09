@@ -5,6 +5,7 @@ import com.cbse.flighthub.base.entity.User;
 import com.cbse.flighthub.base.enums.BookingStatusEnum;
 import com.cbse.flighthub.base.interfaces.BookingService;
 import com.cbse.flighthub.base.interfaces.UserService;
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -26,4 +26,14 @@ public class FlightController {
             return flightService.getFlightsByOriginAndDestination(origin, destination);
         }
     }
+
+    @GetMapping("/getOrigins")
+    public List<String> getOrigins() {
+        return flightService.getOrigins();
+    }
+
+    @GetMapping("/getDestinations")
+    public List<String> getDestinations() {
+        return flightService.getDestinations();
+    }
 }

@@ -9,18 +9,16 @@ import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.Getter;
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import com.cbse.flighthub.base.entity.User;
 
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class UserController {
     @Autowired
@@ -51,34 +49,28 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<String> login(@RequestBody LoginDTO dto, HttpServletResponse response) {
+    public ResponseEntity<Map<String, String>> login(@RequestBody LoginDTO dto) {
         if (dto.getEmail() == null || dto.getPassword() == null) {
-            return ResponseEntity.badRequest().body("All fields are required.");
+            return ResponseEntity.badRequest().body(Map.of("error", "All fields are required."));
         }
 
         try {
-            User user = userService.getUserbyEmail(dto.getEmail());
-            if (user != null && Objects.equals(user.getPassword(), dto.getPassword())) {
-                // Set the cookie for the userId or JWT token (for session persistence)
-                Cookie cookie = new Cookie("userId", user.getId()); // or use a JWT token instead of userId
-                cookie.setHttpOnly(true); // Prevents JavaScript access to the cookie
-                cookie.setSecure(true); // Ensure cookie is only sent over HTTPS
-                cookie.setMaxAge(60 * 60); // Set cookie expiry (1 hour)
-                cookie.setPath("/"); // Cookie available for all endpoints
-                response.addCookie(cookie);
-
-                return ResponseEntity.ok("User logged in successfully.");
+            User user = userService.getUserByEmail(dto.getEmail());
+            if (Objects.equals(user.getPassword(), dto.getPassword())) {
+                // Return the userId in the response
+                return ResponseEntity.ok(Map.of("message", "Login successful", "userId", user.getId()));
             }
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Wrong password. Try again.");
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("error", "Wrong password."));
         } catch (Exception e) {
             e.printStackTrace();
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Email not registered.");
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(Map.of("error", "Email not registered."));
         }
     }
 
-    @GetMapping("bookinghistory")
-    public List<Booking> bookingHistory(HttpServletRequest request) {
 
+    @GetMapping("/bookinghistory")
+    public List<Booking> bookingHistory(HttpServletRequest request) {
+        System.out.println("HELLOOOOO");
         // Retrieve the userId from the cookie
         String userId = null;
         Cookie[] cookies = request.getCookies();
@@ -91,16 +83,20 @@ public class UserController {
             }
         }
 
+        // Log the cookie for debugging
+        System.out.println("userId from cookie: " + userId);
         if (userId == null) {
-            return null;
+            return Collections.emptyList();
         }
 
         try {
             List<Booking> bookings = bookingService.getBookingsByUserId(userId);
+            System.out.println(bookings);
             return bookings;
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
+
+        return Collections.emptyList();
     }
 }

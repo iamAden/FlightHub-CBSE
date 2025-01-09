@@ -22,12 +22,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User getUserbyEmail(String email) {
-        return userRepository.getUserByEmail(email);
+    public User getUserById(String userId) {
+        return userRepository.getUserById(userId);
     }
 
     @Override
-    public User getUserById(String userId) {
-        return userRepository.getUserById(userId);
+    public User getUserByEmail(String email) {
+        return userRepository.getUserByEmail(email);
     }
 }

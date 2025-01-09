@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import org.bson.types.ObjectId;
 
 @Repository
 public interface BookingRepository extends MongoRepository<Booking,String> {
@@ -15,6 +16,6 @@ public interface BookingRepository extends MongoRepository<Booking,String> {
     @Query("{'_id': ?0}")
     Booking getBookingById(String bookingId);
 
-    @Query("{'userId': ?0}")
+    @Query("{'user._id': ?0}")
     List<Booking> getBookingsByUserId(String userId);
 }

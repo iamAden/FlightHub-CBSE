@@ -12,4 +12,7 @@ public interface FlightService {
 
     Flight getFlightById(String flightId);
     Flight saveFlight(Flight flight);
+
+    List<String> getOrigins();
+    List<String> getDestinations();
 }

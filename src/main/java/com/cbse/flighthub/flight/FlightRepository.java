@@ -1,6 +1,7 @@
 package com.cbse.flighthub.flight;
 
 import com.cbse.flighthub.base.entity.Flight;
+import org.springframework.data.mongodb.repository.Aggregation;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -17,4 +18,13 @@ public interface FlightRepository extends MongoRepository<Flight,String> {
 
     @Query("{id:'?0'}")
     Flight getFlightById(String flightId);
+
+    @Query("{ }") // This will fetch all documents
+    @Aggregation(pipeline = "{ $group: { _id: '$origin' } }")
+    List<String> getOrigin();
+
+    @Query("{ }") // This will fetch all documents
+    @Aggregation(pipeline = "{ $group: { _id: '$destination' } }")
+    List<String> getDestination();
+
 }

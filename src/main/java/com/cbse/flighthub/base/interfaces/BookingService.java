@@ -1,6 +1,7 @@
 package com.cbse.flighthub.base.interfaces;
 
 import com.cbse.flighthub.base.entity.Booking;
+import org.bson.types.ObjectId;
 
 import java.util.List;
 

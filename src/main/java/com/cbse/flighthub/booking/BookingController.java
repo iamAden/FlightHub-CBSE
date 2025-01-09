@@ -48,7 +48,7 @@ public class BookingController {
                     }
                 }
             }
-
+            System.out.println(userId);
             if (userId == null) {
                 System.out.println("Null user id");
                 return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("User is not logged in.");
@@ -76,7 +76,9 @@ public class BookingController {
             booking.setPassengerContactNo(dto.getPassengerContactNo());
             booking.setPassengerName(dto.getPassengerName());
             booking.setPassengerICNo(dto.getPassengerICNo());
+            booking.setBookingStatus(BookingStatusEnum.CONFIRMED);
 
+            System.out.println(booking);
             bookingService.saveBooking(booking);
 
             // Reduce available seats

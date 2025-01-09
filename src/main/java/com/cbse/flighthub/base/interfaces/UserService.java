@@ -10,7 +10,8 @@ public interface UserService {
     User saveUser(User user);
     void addPoints(User user, int points);
 
-    User getUserbyEmail(String email);
 
     User getUserById(String userId);
+
+    User getUserByEmail(String email);
 }
