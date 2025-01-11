@@ -1,7 +1,6 @@
 package com.cbse.flighthub;
 
 import com.cbse.flighthub.base.entity.User;
-import com.cbse.flighthub.base.interfaces.UserService;
 import com.cbse.flighthub.user.UserRepository;
 import com.cbse.flighthub.user.UserServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
