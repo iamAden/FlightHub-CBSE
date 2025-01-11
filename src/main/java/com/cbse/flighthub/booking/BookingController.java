@@ -76,7 +76,6 @@ public class BookingController {
             booking.setPassengerICNo(dto.getPassengerICNo());
             booking.setBookingStatus(BookingStatusEnum.CONFIRMED);
 
-            System.out.println(booking);
             bookingService.saveBooking(booking);
 
             // Reduce available seats
