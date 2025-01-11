@@ -7,7 +7,7 @@ To run this repository:
 3. Run ```mvn clean install```
 4. Run FlightHubApplication
 
-If you wanna see it in action with frontend, I made a frontend repo at <a href=https://github.com/iamAden/FlightHub-CBSE-frontend>here</a>. Run intructions will be there.
+If you wanna see it in action with frontend, I made a frontend repo at <a href=https://github.com/iamAden/flighthub-vercel>here</a>. Run intructions will be there.
 
 Also, preferrably don't change the server port or else it won't work at the frontend side.
 
