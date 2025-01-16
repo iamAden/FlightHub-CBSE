@@ -8,6 +8,7 @@ import com.cbse.flighthub.base.interfaces.UserService;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import lombok.Getter;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +19,7 @@ import com.cbse.flighthub.base.entity.User;
 
 import java.util.*;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
 @RestController
 public class UserController {
     @Autowired
@@ -31,6 +32,10 @@ public class UserController {
     public ResponseEntity<String> register(@RequestBody RegisterDTO dto) {
         if (dto.getEmail() == null || dto.getName() == null || dto.getPassword() == null) {
             return new ResponseEntity<>("All fields (name, email, password) are required.", HttpStatus.BAD_REQUEST);
+        }
+
+        if (userService.getUserByEmail(dto.getEmail()) != null) {
+            return ResponseEntity.badRequest().body("Email is already registered.");
         }
 
         User user = new User();
@@ -97,4 +102,32 @@ public class UserController {
         return Collections.emptyList();
     }
 
+    @PostMapping("/logout")
+    public ResponseEntity<String> logout(HttpServletRequest request, HttpServletResponse response) {
+        try {
+            // Clear the authToken cookie
+            Cookie authTokenCookie = new Cookie("authToken", null);
+            authTokenCookie.setHttpOnly(true);
+            authTokenCookie.setSecure(true); // Use true if using HTTPS
+            authTokenCookie.setPath("/");
+            authTokenCookie.setMaxAge(0);
+            response.addCookie(authTokenCookie);
+
+            // Clear the userId cookie
+            Cookie userIdCookie = new Cookie("userId", null);
+            userIdCookie.setPath("/");
+            userIdCookie.setMaxAge(0);
+            response.addCookie(userIdCookie);
+
+            // Invalidate the session if it exists
+            HttpSession session = request.getSession(false);
+            if (session != null) {
+                session.invalidate();
+            }
+
+            return ResponseEntity.ok("Logged out successfully");
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body("An error occurred: " + e.getMessage());
+        }
+    }
 }
