@@ -17,6 +17,7 @@ public class BookingServiceImpl implements BookingService {
     @Autowired
     UserService userService;
 
+    @Override
     public Booking saveBooking(Booking booking) {
         User user = booking.getUser();
         int point = booking.getFlight().getPrice() / 10;
@@ -24,10 +25,12 @@ public class BookingServiceImpl implements BookingService {
         return bookingRepository.save(booking);
     }
 
+    @Override
     public Booking updateBooking(Booking booking) {
         return bookingRepository.save(booking);
     }
 
+    @Override
     public Booking cancelBooking(String bookingId) {
         Booking canceledBooking = bookingRepository.getBookingById(bookingId);
         canceledBooking.setBookingStatus(BookingStatusEnum.CANCELED);
@@ -35,16 +38,20 @@ public class BookingServiceImpl implements BookingService {
         return canceledBooking;
     }
 
+    @Override
     public Booking getBookingById(String bookingId) {
         return bookingRepository.getBookingById(bookingId);
     }
 
+    @Override
     public Booking checkInFlight(String bookingId) {
         Booking booking = bookingRepository.getBookingById(bookingId);
         booking.setBookingStatus(BookingStatusEnum.CHECKEDIN);
+        bookingRepository.save(booking);
         return booking;
     }
 
+    @Override
     public List<Booking> getBookingsByUserId(String userId) {
         return bookingRepository.getBookingsByUserId(userId);
     }

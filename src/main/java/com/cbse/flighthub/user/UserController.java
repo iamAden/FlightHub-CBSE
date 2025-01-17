@@ -85,7 +85,6 @@ public class UserController {
             }
         }
 
-        // Log the cookie for debugging
         if (userId == null) {
             return Collections.emptyList();
         }
