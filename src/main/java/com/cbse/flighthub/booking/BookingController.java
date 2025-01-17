@@ -48,6 +48,8 @@ public class BookingController {
                     }
                 }
             }
+
+            // No userId from cookie
             if (userId == null) {
                 return ResponseEntity.badRequest().body("User is not logged in.");
             }
@@ -58,18 +60,20 @@ public class BookingController {
                 return ResponseEntity.badRequest().body("User not found.");
             }
 
+            // No flight with the flightId
             Flight flight = flightService.getFlightById(flightId);
             if (flight == null) {
                 return ResponseEntity.status(404).body("Flight not found.");
             }
 
+            // Flight has no available seats
             if (flight.getAvailableSeats() <= 0) {
                 return ResponseEntity.badRequest().body("No available seats left.");
             }
 
             Booking booking = new Booking();
-            booking.setUser(user); // Set the user
-            booking.setFlight(flight); // Set the flight
+            booking.setUser(user);
+            booking.setFlight(flight);
             booking.setPassengerEmail(dto.getPassengerEmail());
             booking.setPassengerContactNo(dto.getPassengerContactNo());
             booking.setPassengerName(dto.getPassengerName());

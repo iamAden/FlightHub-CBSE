@@ -4,7 +4,6 @@ import com.cbse.flighthub.base.enums.BookingStatusEnum;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.stereotype.Component;
 
 @Data
 @Document("bookings")

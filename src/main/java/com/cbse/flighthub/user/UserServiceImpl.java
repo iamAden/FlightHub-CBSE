@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserService {
     public void addPoints(User user, int points) {
         int pointEarned = user.getPointsEarned();
         user.setPointsEarned(pointEarned + points);
+        userRepository.save(user);
     }
 
     @Override

@@ -5,13 +5,9 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Service;
 
-@Service
 public interface UserService {
     User saveUser(User user);
     void addPoints(User user, int points);
-
-
     User getUserById(String userId);
-
     User getUserByEmail(String email);
 }

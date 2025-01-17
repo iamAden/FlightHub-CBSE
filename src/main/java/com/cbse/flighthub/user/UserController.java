@@ -9,8 +9,6 @@ import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import lombok.Getter;
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -129,5 +127,26 @@ public class UserController {
         } catch (Exception e) {
             return ResponseEntity.badRequest().body("An error occurred: " + e.getMessage());
         }
+    }
+
+    @GetMapping("/profile")
+    public ResponseEntity<?> showProfile(HttpServletRequest request) {
+        // Retrieve the userId from the cookie
+        String userId = null;
+        Cookie[] cookies = request.getCookies();
+        if (cookies != null) {
+            for (Cookie cookie : cookies) {
+                if ("userId".equals(cookie.getName())) {
+                    userId = cookie.getValue();
+                    break;
+                }
+            }
+        }
+
+        User user = userService.getUserById(userId);
+        if (user == null) {
+            return ResponseEntity.badRequest().body("No user found");
+        }
+        return ResponseEntity.ok().body(user);
     }
 }

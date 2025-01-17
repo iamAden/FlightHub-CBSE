@@ -5,11 +5,8 @@ import com.cbse.flighthub.base.entity.User;
 import com.cbse.flighthub.base.enums.BookingStatusEnum;
 import com.cbse.flighthub.base.interfaces.BookingService;
 import com.cbse.flighthub.base.interfaces.UserService;
-import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.awt.print.Book;
 import java.util.List;
 
 @Service
@@ -48,7 +45,6 @@ public class BookingServiceImpl implements BookingService {
         return booking;
     }
 
-    @Override
     public List<Booking> getBookingsByUserId(String userId) {
         return bookingRepository.getBookingsByUserId(userId);
     }

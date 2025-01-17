@@ -31,5 +31,4 @@ public class Flight {
     @Field("flight_status")
     private FlightStatusEnum flightStatus;
     private List<Booking> bookings;
-
 }

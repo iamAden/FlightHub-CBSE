@@ -15,16 +15,4 @@ public class FlightDTO {
     private String date;
 
     public FlightDTO(){}
-
-    public FlightDTO(String flightNumber, String departureTime, String arrivalTime, String origin, String destination, int availableSeats, int price, String company, String date) {
-        this.flightNumber = flightNumber;
-        this.departureTime = departureTime;
-        this.arrivalTime = arrivalTime;
-        this.origin = origin;
-        this.destination = destination;
-        this.availableSeats = availableSeats;
-        this.price = price;
-        this.company = company;
-        this.date = date;
-    }
 }
