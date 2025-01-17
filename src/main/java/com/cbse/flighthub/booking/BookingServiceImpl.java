@@ -25,7 +25,7 @@ public class BookingServiceImpl implements BookingService {
     }
 
     public Booking updateBooking(Booking booking) {
-        return bookingRepository.insert(booking);
+        return bookingRepository.save(booking);
     }
 
     public Booking cancelBooking(String bookingId) {

@@ -30,7 +30,7 @@ class UserServiceImplTest {
         // Arrange
         User user = new User();
         user.setName("John Doe");
-        when(userRepository.insert(user)).thenReturn(user);
+        when(userRepository.save(user)).thenReturn(user);
 
         // Act
         User savedUser = userService.saveUser(user);
@@ -38,7 +38,7 @@ class UserServiceImplTest {
         // Assert
         assertNotNull(savedUser);
         assertEquals("John Doe", savedUser.getName());
-        verify(userRepository, times(1)).insert(user);
+        verify(userRepository, times(1)).save(user);
     }
 
     @Test

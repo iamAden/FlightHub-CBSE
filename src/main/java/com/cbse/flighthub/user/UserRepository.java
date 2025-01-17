@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, String> {
-    User insert(User user);
+    User save(User user);
     @Query("{'_id': ?0}")
     User getUserById(String id);
     @Query("{'email': ?0}")

@@ -61,12 +61,12 @@ class BookingServiceImplTest {
     }
 
     @Test
-    void updateBooking_ShouldInsertBooking() {
+    void updateBooking_ShouldSaveBooking() {
         // Arrange
         Booking booking = new Booking();
         booking.setId("BK123");
 
-        when(bookingRepository.insert(any(Booking.class))).thenReturn(booking);
+        when(bookingRepository.save(any(Booking.class))).thenReturn(booking);
 
         // Act
         Booking result = bookingServiceImpl.updateBooking(booking);
@@ -74,7 +74,7 @@ class BookingServiceImplTest {
         // Assert
         assertNotNull(result);
         assertEquals("BK123", result.getId());
-        verify(bookingRepository, times(1)).insert(booking);
+        verify(bookingRepository, times(1)).save(booking);
     }
 
     @Test

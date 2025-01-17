@@ -11,7 +11,7 @@ import org.bson.types.ObjectId;
 @Repository
 public interface BookingRepository extends MongoRepository<Booking,String> {
 
-    Booking insert(Booking booking);
+    Booking save(Booking booking);
 
     @Query("{'_id': ?0}")
     Booking getBookingById(String bookingId);

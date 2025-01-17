@@ -19,6 +19,7 @@ import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -46,7 +47,7 @@ class UserControllerTest {
 
     @Test
     void testRegister_Success() {
-        RegisterDTO dto = new RegisterDTO("John Doe", "john@example.com", "password123");
+        RegisterDTO dto = new RegisterDTO("john@example.com", "John Doe", "password123");
         User user = new User();
         user.setName(dto.getName());
         user.setEmail(dto.getEmail());
@@ -62,12 +63,25 @@ class UserControllerTest {
 
     @Test
     void testRegister_Failure_MissingFields() {
-        RegisterDTO dto = new RegisterDTO(null, "john@example.com", "password123");
+        RegisterDTO dto = new RegisterDTO(null, "john", "password123");
 
         ResponseEntity<String> response = userController.register(dto);
 
         assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
         assertEquals("All fields (name, email, password) are required.", response.getBody());
+    }
+
+    @Test
+    void testRegister_Failure_ExistingEmail() {
+        RegisterDTO dto = new RegisterDTO("john@example.com", "John Doe", "password123");
+        User user = new User();
+        user.setEmail("john@example.com");
+
+        when(userService.getUserByEmail("john@example.com")).thenReturn(user);
+        ResponseEntity<String> response = userController.register(dto);
+
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
+        assertEquals("Email is already registered.", response.getBody());
     }
 
     @Test
@@ -103,6 +117,25 @@ class UserControllerTest {
     }
 
     @Test
+    void testLogin_EmailNotRegistered() {
+        LoginDTO loginDTO = new LoginDTO("john@gmail.com", "password123");
+        when(userService.getUserByEmail(loginDTO.getEmail())).thenThrow(new RuntimeException("Email not found"));
+
+        ResponseEntity<Map<String, String>> response = userController.login(loginDTO);
+
+        assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+        assertEquals("Email not registered.", response.getBody().get("error"));
+        verify(userService, times(1)).getUserByEmail(loginDTO.getEmail());
+    }
+
+    @Test
+    void testBookingHistory_NoCookies() {
+        when(request.getCookies()).thenReturn(null);
+        List<Booking> response = userController.getBookingHistory(request);
+        assertEquals(Collections.emptyList(), response);
+    }
+
+    @Test
     void testBookingHistory_Success() {
         Cookie[] cookies = {new Cookie("userId", "12345")};
         when(request.getCookies()).thenReturn(cookies);
@@ -125,6 +158,45 @@ class UserControllerTest {
 
         assertEquals(0, response.size());
         verify(bookingService, never()).getBookingsByUserId(anyString());
+    }
+
+    @Test
+    void testShowProfile_NoCookies() {
+        when(request.getCookies()).thenReturn(null);
+
+        ResponseEntity<?> response = userController.showProfile(request);
+
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
+        assertEquals("No user found", response.getBody());
+    }
+
+    @Test
+    void testShowProfile_UserNotFound() {
+        Cookie[] cookies = {new Cookie("userId", "123")};
+        when(request.getCookies()).thenReturn(cookies);
+        when(userService.getUserById("123")).thenReturn(null);
+
+        ResponseEntity<?> response = userController.showProfile(request);
+
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
+        assertEquals("No user found", response.getBody());
+    }
+
+    @Test
+    void testShowProfile_UserFound() {
+        Cookie[] cookies = {new Cookie("userId", "123")};
+        User user = new User();
+        user.setEmail("john@gmail.com");
+        user.setName("John");
+        user.setPointsEarned(900);
+
+        when(request.getCookies()).thenReturn(cookies);
+        when(userService.getUserById("123")).thenReturn(user);
+
+        ResponseEntity<?> response = userController.showProfile(request);
+
+        assertEquals(HttpStatus.OK, response.getStatusCode());
+        assertEquals(user, response.getBody());
     }
 }
 
